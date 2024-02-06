@@ -3,6 +3,8 @@ const Person = {
   lastName: "islam",
   age: 28,
 };
-//# ways to access property
+//# 3ways to access property
+const myAge = "age";
 console.log(Person.firstName);
 console.log(Person["lastName"]);
+console.log(Person[myAge]);
