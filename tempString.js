@@ -7,4 +7,11 @@ const Person = {
 // ${person.firstName}
 // ${Person["lastName"]}
 const saiful = `${Person.firstName} is a good boy and he has ${number[1]} children.His family name is ${Person["lastName"]} `;
-console.log(saiful);
+
+//Spread Operator
+const myNumber = [...number];
+number.push(101);
+number.push(102);
+console.log(number);
+
+console.log(myNumber);
