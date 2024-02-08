@@ -6,11 +6,17 @@ const products = [
 ];
 
 const Brands = products.map((item) => item.brand);
-console.log(Brands);
+//console.log(Brands);
 const Prices = products.map((jinish) => jinish.price);
 //console.log(Prices);
 //for Each method
 // products.forEach((item) => console.log(item.color));
 products.forEach((product) => {
-  console.log(product.name);
+  // console.log(product.name);
 });
+//FIlter Methods
+const cheapest = products.filter((item) => item.price <= 3000);
+//console.log(cheapest);
+
+const n = products.filter((item) => item.name.includes("b"));
+console.log(n);
