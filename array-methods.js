@@ -19,4 +19,8 @@ const cheapest = products.filter((item) => item.price <= 3000);
 //console.log(cheapest);
 
 const n = products.filter((item) => item.name.includes("b"));
-console.log(n);
+// console.log(n);
+
+//Find Methods
+const khuja = products.find((item) => item.name.includes("b"));
+console.log(khuja);
