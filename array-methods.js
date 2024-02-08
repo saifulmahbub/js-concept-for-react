@@ -8,4 +8,9 @@ const products = [
 const Brands = products.map((item) => item.brand);
 console.log(Brands);
 const Prices = products.map((jinish) => jinish.price);
-console.log(Prices);
+//console.log(Prices);
+//for Each method
+// products.forEach((item) => console.log(item.color));
+products.forEach((product) => {
+  console.log(product.name);
+});
