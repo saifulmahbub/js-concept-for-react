@@ -1,12 +1,12 @@
 const myVar = 5;
 if (myVar) {
-  console.log("saiful");
+  // console.log("saiful");
 }
 const name = 0;
 if (!name) {
-  console.log(1);
+  // console.log(1);
 } else {
-  console.log(2);
+  // console.log(2);
 }
 
 //Ternary Operator
@@ -23,4 +23,9 @@ const meal = money > 100 ? (food = "biriyani") : (food = "cha-biscuit");
 //coversion number to string
 const num1 = 52;
 // const str = String(num1);//const str =(num1+ " ");
-console.log(typeof str);
+// console.log(typeof str);
+//conversion str to number
+const string = "100";
+console.log(typeof string);
+const newNum = Number(string);
+console.log(typeof newNum);
