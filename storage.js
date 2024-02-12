@@ -5,7 +5,10 @@ const addToLocal = () => {
   const firstUserValue = document.getElementById("user1-value");
   const value = firstUserValue.value;
 
-  localStorage.setItem(id, value);
+  if (id && value) {
+    localStorage.setItem(id, value);
+  }
+
   id.value = " ";
   value.value = " ";
 };
