@@ -26,6 +26,14 @@ const num1 = 52;
 // console.log(typeof str);
 //conversion str to number
 const string = "100";
-console.log(typeof string);
-const newNum = Number(string);
-console.log(typeof newNum);
+// console.log(typeof string);
+const newNum = Number(string); //newNum=+string[shortcut]
+// console.log(typeof newNum);
+
+const isActive = true;
+const showUser = () => console.log("show Display");
+const hideUser = () => console.log("Hide DIsplay");
+// isActive ? showUser() : hideUser();
+//shortCut
+//use && if the left side is true then right side will be executed.
+isActive && showUser();
